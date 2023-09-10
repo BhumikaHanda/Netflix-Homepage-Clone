@@ -1,0 +1,315 @@
+body{
+    background: black;
+    color: white;
+   
+    
+} 
+.front{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0, rgba(0, 0, 0, 0.1) 60%, rgba(0, 0, 0, 0.9) 100%),url(img/netflixbg.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+
+#logo{
+   margin-left: 123px;
+   margin-top: 20px;
+   width: 199px;  
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right:150px;
+    cursor: pointer;
+}
+nav button{
+    border: 0px;
+    background: #E50914;
+    color: white;
+    padding: 8px 21px;
+    font-size: 15px;
+    font-weight: 66%;
+    border-radius: 4.91px;
+    cursor: pointer;
+    margin-right: 28px;
+    justify-content: space-between;
+}
+#globe{
+    background-color:black;
+    background: transparent;
+    margin: 0px;
+   
+    opacity: 0.73;
+    border: 0.12px solid white;
+    align-items: center;
+    
+    display: inline-flex;
+    padding: 8px 21px;
+}
+
+#globe-icon{
+    width: 19px;
+    margin-right: 10px;
+}
+#downarrow-icon{
+    width: 15px;
+    margin-left: 10px;
+}
+.btn1{
+    margin-right: 23px;
+}
+.btn2{
+    margin-left: 23px;
+}
+.content{
+    text-align: center;
+    margin-top: 170px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#h1{
+    font-weight: bolder;
+    font-size:50px;
+    line-height: 70px;
+    margin-top: -30px;
+   
+}
+.content h3{
+    font-weight:400 ;
+    margin-bottom: 20px;
+     line-height: 40px;
+     font-size:26px ;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     
+}
+.content h4{
+    line-height: 21px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 580;
+}
+
+.email-signup input{
+    flex: 1;
+    border: 0.7px solid white;
+    outline: 0;
+    margin-left: 0px;
+    
+    background: black;
+    color: white;
+    opacity: 0.7;
+    border-radius: 4px;
+    padding: 18px 20px;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 350px;
+    font-style: bolder;
+    font-weight: 700;
+   
+     
+}
+.email-signup button{
+    background: #E50914;
+    color: white;
+    padding:18px 20px  ;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 800;
+    font-size: 20px;
+    cursor: pointer;
+    width: 200px;
+}
+/*--------------------- 1 --------------------*/
+.next-content{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-top: 250px;
+    font-weight: 500;
+    margin-left:200px ;
+   
+
+}
+.next-content h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: 1400;
+    line-height: 80px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+ 
+
+.img1{
+    display: block;
+    width: 90%;
+    margin-top:-430px ;
+    margin-left: 700px;
+    
+}
+/*------------------ 2 ------------*/
+.next-content2{
+    margin-top:-400px ;
+    margin-left: 700px;
+}
+.next-content2 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: 1400;
+    line-height: 30px;
+    font-size:50px ;
+    font-weight: bolder;
+}
+.next-content2 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.img2{
+    margin-left:120px ;
+    margin-top: 50px;
+
+}
+/*--------------------- 3 ------------------*/
+.next-content3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-top: 410px;
+    font-weight: 500;
+    margin-left:200px ;
+           
+}
+
+.next-content3 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 1400;
+   line-height: 80px;
+   font-size: 50px;
+   font-weight: bolder;
+
+}
+
+.img3{
+    display: block;
+    width: 90%;
+    margin-top:-250px ;
+    margin-left: 700px;
+
+}
+/*------------------- 4 ------------------*/
+
+.next-content4{
+    margin-top:-420px ;
+    margin-left: 800px;
+}
+.next-content4 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: 1400;
+   
+    font-size:50px ;
+    font-weight: bolder;
+}
+.next-content4 h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    
+    font-weight: 700;
+    
+}
+.next-content4 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.img4{
+    margin-left:120px ;
+    margin-top: 90px;
+}
+
+/*-------------faq-----------*/
+.ques {
+    
+   
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ques h1{
+    padding-top: 200px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+}
+.accordion{
+    text-align: center;
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: -170px;
+    background: #303030;
+    cursor: pointer;
+    position: relative;
+}
+
+ label ::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+} 
+input[type="radio"]{
+    display: none;
+
+}
+.accordion .content{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s,padding 0.5s;
+
+}
+
+.accordion input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+} 
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+} 
+/*------------------ E-MAIL and GET STARTED-------------*/
+#last{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 23px;
+    padding-left: 470px;
+    font-size: 19px;
+
+}
+#done{
+    padding-left: 470px;
+    padding-top: 21px;
+}
+#email{
+    border: 2px solid rgb(22, 150, 22);
+}
+
+
